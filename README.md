@@ -8,17 +8,15 @@
 - 🖼️ [스크린샷](#%EF%B8%8F-스크린샷)
 
 ## 📝 개요
-![CrazyArcade](https://user-images.githubusercontent.com/16281218/218511941-468efab7-b79b-4d35-a188-33503d7e0fdf.png)
+![EffectTool_Thumbnail](https://user-images.githubusercontent.com/16281218/218700023-870eeba5-f3e9-4666-9f00-c4606de6a59e.png)    
 > - 프로젝트: DirectX 11과 MFC를 활용한 이펙트 툴 제작      
 > - 기획 및 제작: 오민규   
 > - 분류: 개인 프로젝트   
 > - 제작 기간: 25일    
 > - 게임 소개:   
-> &emsp;2D 게임 프로젝트로 넥슨사의 크레이지 아케이드를 모작하였다.   
-> &emsp;멀티플레이 게임으로 2 인이 동시에 플레이할 경우 게임이 진행되며,   
-> &emsp;물풍선을 이용하여 오브젝트를 파괴함으로써 아이템을 획득하고   
-> &emsp;물풍선을 맵에 배치하여 플레이어끼리 대전하는 게임이다.   
-> &emsp;게임은 총 4 개의 씬(인트로, 로그인, 로비, 게임)으로 구성되어있다.   
+> &emsp;DirectX를 이용하여 게임을 제작할 때, 게임 프로젝트에서 직접 이펙트를 생성하는 것이 아닌    
+> &emsp;게임에서 사용되는 이펙트 리소스를 기획에 맞춰서 제작하기 위하여 DirectX와 MFC를 이용하여 이펙트 툴을 제작한다.    
+> &emsp;위치, 방향, 속도 등 특징을 텍스트 입력 박스와 버튼을 이용하여 이펙트를 제작한다.  
 
 
 ## 🏆 목표      
@@ -32,18 +30,18 @@
 
 
 ## 🧑‍💻 개발 문서
-&emsp;[개발 문서 확인하기](https://github.com/MingyuOh/CrazyArcade/tree/main/Document)
+&emsp;[개발 문서 확인하기](https://github.com/MingyuOh/EffectTool/tree/main/Document)
  
  
 ## 📺 시연 영상
-&emsp;[![Video Label](https://user-images.githubusercontent.com/16281218/218692901-025abe35-cc20-4f1f-b461-a6f8b2fb473f.png)](https://youtu.be/0h2cQZpt-CA)        
+&emsp;[![Video Label](https://user-images.githubusercontent.com/16281218/218701661-20602342-d82e-4e7d-b7f8-a64dbdc82337.png)](https://youtu.be/bRAsXYLIUUs)        
 &emsp;**🔼 이미지를 클릭해주세요.**    
 
 ## 🖼️ 스크린샷
-&emsp;![CrazyArcade1](https://user-images.githubusercontent.com/16281218/218682274-31747a94-bc2a-4a2a-8265-c476a9c3c158.png)
-&emsp;![CrazyArcade2](https://user-images.githubusercontent.com/16281218/218692702-a856a05c-f45b-49e2-b6da-258b1c64fd53.png)
-&emsp;![CrazyArcade3](https://user-images.githubusercontent.com/16281218/218682291-216bc0f9-e4ef-4736-b786-1e5127c70e68.png)    
-&emsp;![CrazyArcade4](https://user-images.githubusercontent.com/16281218/218682293-cec0f5fc-884e-4a02-808c-05cecc8ee4de.png)
+&emsp;!
+&emsp;!
+&emsp;!    
+&emsp;!
 
 
 ** Notice)    
