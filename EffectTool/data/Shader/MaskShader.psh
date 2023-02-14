@@ -1,0 +1,39 @@
+Texture2D g_txDiffuse   : register(t0);
+Texture2D g_txEffect[4] : register(t1);
+SamplerState sample0    : register(s0);
+
+
+//--------------------------------------------------------------------------------------
+// Constant Buffer Variables
+//--------------------------------------------------------------------------------------
+cbuffer cb0
+{
+	matrix	g_matWorld		: packoffset(c0);
+	matrix	g_matView		: packoffset(c4);
+	matrix	g_matProj		: packoffset(c8);
+};
+
+//--------------------------------------------------------------------------------------
+// Pixel Shader
+//--------------------------------------------------------------------------------------
+
+struct VS_OUTPUT
+{
+	float4 p : SV_POSITION;
+	float3 n : NORMAL;
+	float4 c : COLOR0;
+	float2 t : TEXCOORD0;
+};
+
+float4 PS(VS_OUTPUT input) : SV_Target
+{
+	float4 vMask = g_txDiffuse.Sample(sample0, input.t);
+	float4 vColorA = g_txEffect[0].SampleLevel(sample0, input.t * 10, 0) * vMask.r;
+	float4 vColorB = g_txEffect[1].SampleLevel(sample0, input.t * 10, 0) * vMask.g;
+	float4 vColorC = g_txEffect[2].SampleLevel(sample0, input.t * 10, 0) * vMask.b;
+	float4 vColorD = g_txEffect[3].SampleLevel(sample0, input.t * 10, 0) * vMask.a;
+
+	float4 vFinalColor = vColorA + vColorB + vColorC + vColorD;
+
+	return vFinalColor;
+}

@@ -1,0 +1,56 @@
+Texture2D g_txDiffuseArray[6] : register(t0);
+SamplerState sample0		  : register(s0);
+
+//--------------------------------------------------------------------------------------
+// Pixel Shader
+//--------------------------------------------------------------------------------------
+struct VS_OUTPUT
+{
+	float4 p  : SV_POSITION;
+	float3 n  : NORMAL;
+	float4 c  : COLOR0;
+	float2 t  : TEXCOORD0;
+	uint   id : SV_PrimitiveID;
+};
+
+float4 GetColor(uint id, float2 t)
+{
+	float4 vColor = float4(0, 0, 0, 0);
+	int texID = id / 2;
+
+	switch (texID)
+	{
+		case 0:
+		{
+			vColor = g_txDiffuseArray[0].Sample(sample0, t);
+		}break;
+		case 1:
+		{
+			vColor = g_txDiffuseArray[1].Sample(sample0, t);
+		}break;
+		case 2:
+		{
+			vColor = g_txDiffuseArray[2].Sample(sample0, t);
+		}break;
+		case 3:
+		{
+			vColor = g_txDiffuseArray[3].Sample(sample0, t);
+		}break;
+		case 4:
+		{
+			vColor = g_txDiffuseArray[4].Sample(sample0, t);
+		}break;
+		case 5:
+		{
+			vColor = g_txDiffuseArray[5].Sample(sample0, t);
+		}break;
+	}
+
+	return vColor;
+}
+
+float4 PS(VS_OUTPUT input) : SV_Target
+{
+	float4 vColor = GetColor(input.id, input.t);
+	return vColor;
+}

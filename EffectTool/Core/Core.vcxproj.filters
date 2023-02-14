@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{13720a47-0666-4f76-8fc5-f4a2932a5065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{348d8f3b-1a62-4479-9070-024b569cc113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2ca214e7-6508-44aa-ae7d-69a71189fe5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{487e344e-f4d3-4dcb-ae5e-7ff71f7b62f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{3fc8a8c5-707e-46ad-a539-c31498438c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{f1f560fa-0e99-4e82-adb3-32924ae0f6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{88136195-89d8-4fea-bf79-4237080e47a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{459d6367-e79d-4cc5-b518-ca9b9371fcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{739026d6-4ae6-4597-b12e-b54d7bb273fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{1ad2d44d-3a1c-44fa-9ea2-a4e06ef6a838}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSTD.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLine.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectWrite.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBackView.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRT.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeIndex.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLOD.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBoxShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxObject.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="AseObject.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomObj.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DxState.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDS.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemManager.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="PointParticle.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLine.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectWrite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraBackView.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRT.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Constant.h">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeIndex.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLOD.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBoxShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxObject.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxAnimation.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="AseObject.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GeomObj.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxVertexElement.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DxState.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DxDS.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemManager.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="PointParticle.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\data\Shader\PixelShader.psh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\VertexShader.vsh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\GeometryShader.gsh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\LinePixelShader.psh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\LineVertexShader.vsh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\SkyBoxVertexShader.vsh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\SkyBoxPixelShader.psh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\UIPixelShader.psh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\MaskShader.psh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\InstanceVertexShader.vsh">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\PointParticle.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\Lighting.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\shader\CharacterShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\shader\ProjectionShadow.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\EffectShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\Shader\EffectInstanceShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

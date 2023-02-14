@@ -1,0 +1,126 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++에서 생성한 포함 파일입니다.
+// GameTool.rc에서 사용되고 있습니다.
+//
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             100
+#define IDR_POPUP_EDIT                  119
+#define ID_STATUSBAR_PANE1              120
+#define ID_STATUSBAR_PANE2              121
+#define IDS_STATUS_PANE1                122
+#define IDS_STATUS_PANE2                123
+#define IDS_TOOLBAR_STANDARD            124
+#define IDS_TOOLBAR_CUSTOMIZE           125
+#define ID_VIEW_CUSTOMIZE               126
+#define IDR_MAINFRAME                   128
+#define IDR_MAINFRAME_256               129
+#define IDR_GameToolTYPE                130
+#define IDR_THEME_MENU                  200
+#define ID_SET_STYLE                    201
+#define ID_VIEW_APPLOOK_WIN_2000        205
+#define ID_VIEW_APPLOOK_OFF_XP          206
+#define ID_VIEW_APPLOOK_WIN_XP          207
+#define ID_VIEW_APPLOOK_OFF_2003        208
+#define ID_VIEW_APPLOOK_VS_2005         209
+#define ID_VIEW_APPLOOK_VS_2008         210
+#define ID_VIEW_APPLOOK_OFF_2007_BLUE   215
+#define ID_VIEW_APPLOOK_OFF_2007_BLACK  216
+#define ID_VIEW_APPLOOK_OFF_2007_SILVER 217
+#define ID_VIEW_APPLOOK_OFF_2007_AQUA   218
+#define ID_VIEW_APPLOOK_WINDOWS_7       219
+#define IDS_EDIT_MENU                   306
+#define IDD_EFFECTTOOLFORM              311
+#define IDD_EFFECTCREATE                312
+#define IDD_EFFECTLOADTEXTURE           313
+#define IDD_EFFECTLOADSHADER            314
+#define IDD_EFFECT2DFORM                315
+#define IDC_MAX_X                       1001
+#define IDC_MAX_Y                       1002
+#define IDC_MAX_Z                       1003
+#define IDC_MIN_X                       1004
+#define IDC_MIN_Y                       1005
+#define IDC_MIN_Z                       1006
+#define IDC_CHECK_STRAIGHT              1007
+#define IDC_CHECK_CIRCLE                1008
+#define IDC_DIR_X                       1009
+#define IDC_DIR_Y                       1010
+#define IDC_DIR_Z                       1011
+#define IDC_CIRCLE_ROTATION_X           1012
+#define IDC_RADIAN                      1013
+#define IDC_LIFETIME                    1014
+#define IDC_CIRCLE_ROTATION_Y           1015
+#define IDC_CHECK_Billboard_Apply       1016
+#define IDC_CHECK_BILLBOARD_NOT_APPLY   1017
+#define IDC_CIRCLE_ROTATION_Z           1018
+#define IDC_POS_X                       1019
+#define IDC_SPEED                       1020
+#define IDC_EFFECTCREATE                1021
+#define IDC_EFFECTCOUNT                 1022
+#define IDC_RANDOMSPEED                 1023
+#define IDC_EFFECTDELETE                1024
+#define IDC_CHECK_PERSPECTIVE           1025
+#define IDC_CHECK_ORTHOGONAL            1026
+#define IDC_POS_Y                       1027
+#define IDC_CREATESHADER                1028
+#define IDC_CREATETEXTURE               1029
+#define IDC_POS_Z                       1030
+#define IDC_TEXTURELIST                 1031
+#define IDC_CORLOR_R                    1031
+#define IDC_CORLOR_G                    1032
+#define IDC_CORLOR_B                    1033
+#define IDC_OPEN_VS                     1034
+#define IDC_OPEN_SHADER                 1034
+#define IDC_CORLOR_A                    1034
+#define IDC_OPEN_PS                     1035
+#define IDC_OPEN_GS                     1036
+#define IDC_VSLIST                      1041
+#define IDC_SHADERLIST                  1041
+#define IDC_PSLIST                      1042
+#define IDC_GSLIST                      1044
+#define IDC_OPEN_TEXTURE                1044
+#define IDC_CREATEBOX                   1045
+#define IDC_SCALE                       1046
+#define IDC_RANDOMSCALE                 1047
+#define IDC_LOAD_EFFECT                 1048
+#define IDC_SAVE_EFFECT                 1049
+#define IDC_MAXPARTICLECOUNT            1050
+#define IDC_EDIT2                       1051
+#define IDC_DELETEINDEX                 1051
+#define IDC_UVCOL                       1051
+#define IDC_CREATEPARTICLE              1052
+#define IDC_EFFECT_REPEAT               1053
+#define IDC_RANDOMRADIAN                1054
+#define IDC_CHECK1                      1055
+#define IDC_CREATEMAXPARTICLE           1055
+#define IDC_ALPHABLENDING               1055
+#define IDC_RANDOMLIFETIME              1056
+#define IDC_ALPHATESTING                1056
+#define IDC_RANDOMPOS                   1057
+#define IDC_RANDOM_COLOR                1058
+#define IDC_EFFECTDELETEALL             1059
+#define IDC_UVROW                       1060
+#define IDC_EFFECT_REPEAT2              1060
+#define IDC_BOUND                       1060
+#define IDC_SAVE_FILENAME               1061
+#define IDC_SAVE_FILENAME2              1062
+#define IDC_LOAD_FILENAME2              1062
+#define IDC_SPRITE_TIME                 1062
+#define IDC_GRAVITY                     1062
+#define IDC_RANDOMDIR                   1063
+#define IDC_STANDARD_PLANE              1067
+#define IDC_FLOOR_PLANE                 1068
+#define IDC_ROTATIONAXIS_NONE           1070
+#define IDC_ROTATIONAXIS_X              1071
+#define IDC_ROTATIONAXIS_Y              1072
+#define IDC_ROTATIONAXIS_Z              1073
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        316
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1071
+#define _APS_NEXT_SYMED_VALUE           316
+#endif
+#endif
