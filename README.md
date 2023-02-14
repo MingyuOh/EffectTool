@@ -28,10 +28,10 @@
 ## 🛠 기술 및 도구   
 &emsp;<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&&logo=c&logoColor=white"/> 
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&&logo=cplusplus&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Window API-0078D6?style=flat-square&&logo=Windows&logoColor=white"/> 
 <img src="https://img.shields.io/badge/-MFC-red?style=flat-square&&logo=Microsoft&logoColor=white"/> 
-<img src="https://img.shields.io/badge/-DirectX-black?style=flat-square&&logo=Microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/-DirectX-black?style=flat-square&&logo=Microsoft&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/>
 
 https://img.shields.io/badge/-DirectX-black
 ## 🧑‍💻 개발 문서
