@@ -30,9 +30,8 @@
 <img src="https://img.shields.io/badge/Window API-0078D6?style=flat-square&&logo=Windows&logoColor=white"/> 
 <img src="https://img.shields.io/badge/-MFC-red?style=flat-square&&logo=Microsoft&logoColor=white"/> 
 <img src="https://img.shields.io/badge/-DirectX-black?style=flat-square&&logo=Microsoft&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&&logo=Visual Studio&logoColor=white"/>    
 
-https://img.shields.io/badge/-DirectX-black
 ## 🧑‍💻 개발 문서
 &emsp;[개발 문서 확인하기](https://github.com/MingyuOh/EffectTool/tree/main/Document)
  
